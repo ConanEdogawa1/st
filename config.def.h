@@ -141,10 +141,14 @@ static unsigned int defaultrcs = 257;
 unsigned int defaultitalic = 7;
 unsigned int defaultunderline = 7;
 /*
- * Default shape of cursor
- * 2: Block ("█")
- * 4: Underline ("_")
- * 6: Bar ("|")
+ * Default style of cursor
+ * 0: blinking block
+ * 1: blinking block (default)
+ * 2: steady block ("█")
+ * 3: blinking underline
+ * 4: steady underline ("_")
+ * 5: blinking bar
+ * 6: steady bar ("|")
  * 7: Snowman ("☃")
  */
 static unsigned int cursorstyle = 1;
